@@ -17,7 +17,7 @@
     (cond
         ((eof-object? stuff) '()) ;return empty list, no more to do
         (else (cons (str-split stuff) (print-file-helper port)))
-        ;combines the list from parsing the line with the next call
+        ;;combines the list from parsing the line with the next call
     )));end of if, let, and function
 
 
